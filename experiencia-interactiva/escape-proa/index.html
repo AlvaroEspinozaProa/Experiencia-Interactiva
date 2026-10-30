@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171a32">
+  <title>Escape PROA</title>
+  <link rel="stylesheet" href="../../static/escape-proa.css">
+  <link rel="stylesheet" href="../../static/escape-proa-puzzles.css">
+  <script defer src="../../static/escape-proa-puzzles.js"></script>
+  <script defer src="../../static/escape-proa.js"></script>
+</head>
+<body data-mode="welcome">
+  <a class="skip-link" href="#game-controls">Ir a los controles</a>
+  <header class="topbar" id="hud" hidden>
+    <a href="../" class="back-link">← Experiencias</a>
+    <div class="objective"><span id="room-label">PATIO · LA ÚLTIMA LUZ</span><strong id="objective-text">Recorré el patio y prestá atención a los detalles.</strong></div>
+    <div class="hud-actions"><span id="progress" aria-label="Mecanismos resueltos">0 / 3</span><button id="pause" type="button" aria-pressed="false">Pausar</button><button id="sound" type="button" aria-pressed="true">Sonido: sí</button><label class="music-control">Música <input id="music-volume" type="range" min="0" max="100" value="30" aria-label="Volumen de música"></label><label class="music-control">Efectos <input id="effects-volume" type="range" min="0" max="100" value="100" aria-label="Volumen de efectos"></label><button id="fullscreen" type="button">Pantalla completa</button><button id="menu" type="button">Menú</button></div>
+  </header>
+  <main class="world-shell">
+    <div class="stage" id="stage">
+      <canvas id="world" width="1280" height="720" aria-label="Patio al atardecer. El gato camina automáticamente. Usá las flechas para mirar y Tab para explorar un objeto."></canvas>
+      <div id="hotspots" aria-label="Objetos del patio" hidden>
+        <button class="hotspot" data-puzzle="emblem" type="button" aria-label="Abrir pregunta de opción múltiple"><span class="hotspot-symbol" aria-hidden="true">📖</span><span class="hotspot-label">Libro</span></button>
+        <button class="hotspot" data-puzzle="pipes" type="button" aria-label="Abrir acertijo de palabra"><span class="hotspot-symbol" aria-hidden="true">?</span><span class="hotspot-label">Palabra</span></button>
+        <button class="hotspot" data-puzzle="shadows" type="button" aria-label="Abrir acertijo de lógica"><span class="hotspot-symbol" aria-hidden="true">⚙</span><span class="hotspot-label">Lógica</span></button>
+      </div>
+      <div class="cinema-bar cinema-bar--top" aria-hidden="true"></div><div class="cinema-bar cinema-bar--bottom" aria-hidden="true"></div>
+      <button class="dialogue" id="dialogue" type="button" hidden aria-label="Avanzar diálogo">
+        <span class="speaker" id="speaker">Narrador</span><span id="dialogue-visual" aria-hidden="true"></span><span class="sr-only" id="dialogue-readable" aria-live="polite"></span><span class="dialogue-next" aria-hidden="true">Clic / Enter / Espacio <b>▸</b></span>
+      </button>
+      <section class="start-screen" id="start-screen" aria-labelledby="escape-title">
+        <div class="start-copy"><p class="eyebrow">Una pequeña aventura de PROA</p><h1 id="escape-title">ESCAPE<br><span>PROA</span></h1><p class="start-lead">Un gato perdido. La última luz del día.<br>Una puerta que todavía no se abre.</p><p class="start-description">Acompañalo, recorré el patio y prestá atención a los detalles.</p><div class="start-actions"><button id="continue" class="button-primary" type="button" hidden disabled>Continuar</button><button id="new-game" class="button-primary" type="button" disabled>Nueva partida</button></div><p class="loading-status" id="loading-status" role="status">Preparando el patio…</p><button id="retry" type="button" hidden>Volver a cargar</button><a class="start-back" href="../">← Volver a Experiencias</a><p class="edition">Tres habitaciones · Una aventura</p></div>
+      </section>
+      <section class="pause-screen" id="pause-screen" aria-labelledby="pause-title" hidden><div><p class="eyebrow">Podés tomarte tu tiempo</p><h2 id="pause-title">Una pausa.</h2><button id="resume" class="button-primary" type="button">Seguir acompañándolo</button></div></section>
+      <section class="review-screen" id="review-screen" aria-labelledby="review-title" hidden><div><p class="eyebrow">Una aventura compartida</p><h2 id="review-title">¡ESCAPE COMPLETADO!</h2><div class="start-actions"><button id="replay" class="button-primary" type="button">Volver a jugar</button><a class="button-link" href="../">Volver a Experiencias Interactivas</a></div></div></section>
+      <div class="exit-fade" id="exit-fade" aria-hidden="true"></div>
+    </div>
+  </main>
+  <footer class="game-controls" id="game-controls"><span id="controls-help">Una aventura para mirar, pensar y acompañar.</span><button id="follow" type="button" hidden>Seguir al gato</button><span id="notice" role="status" aria-live="polite"></span></footer>
+  <section id="puzzle-panel" class="puzzle-panel" hidden role="dialog" aria-modal="true" aria-labelledby="puzzle-title"></section>
+  <noscript><p class="noscript">Escape PROA necesita JavaScript para jugar. Activá JavaScript y volvé a cargar la página.</p></noscript>
+</body>
+</html>

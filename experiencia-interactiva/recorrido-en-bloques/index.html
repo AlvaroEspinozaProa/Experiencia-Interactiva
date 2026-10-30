@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorré PROA en bloques</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../static/experiencia.css">
+    <link rel="stylesheet" href="../../static/recorrido-bloques.css">
+</head>
+<body class="experiencia-page bloques-page">
+    <div class="mundo-atmosfera" aria-hidden="true">
+        <i class="cubo-flotante cubo-flotante--pasto"></i>
+        <i class="cubo-flotante cubo-flotante--diamante"></i>
+        <i class="cubo-flotante cubo-flotante--tierra"></i>
+        <span class="particulas-mundo"></span>
+    </div>
+    <main class="bloques-shell">
+        <a class="volver-proa" href="../">← Experiencias</a>
+        <header class="bloques-header">
+            <div class="bloques-presentacion">
+                <div class="estado-mundo"><span>MUNDO DISPONIBLE</span><span>JAVA EDITION</span></div>
+                <p class="eyebrow">MUNDO PROA · LISTO PARA JUGAR</p>
+                <h1>RECORRÉ PROA<br><span>EN BLOQUES</span></h1>
+                <p>Entrá al mundo, conocé la escuela desde adentro y descargá el mapa completo.</p>
+            </div>
+            <ol class="pasos" aria-label="Cómo acceder al mundo"><li><b>01</b><span>Mirá el recorrido</span></li><li><b>02</b><span>Escaneá el QR</span></li><li><b>03</b><span>Jugá el mapa</span></li></ol>
+        </header>
+        <section class="portal-nocturno" aria-labelledby="video-titulo" data-world="PROA / 1.21.11">
+            <div class="portal-nocturno__barra portal-nocturno__barra--superior" aria-hidden="true"></div>
+            <div class="portal-nocturno__escena">
+                <video class="portal-nocturno__video" controls preload="metadata" poster="../../static/experiencia/recorrido-preview.png" aria-describedby="video-descripcion">
+                    <source src="../../static/experiencia/recorrido-proa.mp4?v=20261030-silent" type="video/mp4">
+                    Tu navegador no puede reproducir el video del recorrido de PROA.
+                </video>
+            </div>
+            <div class="portal-nocturno__pie">
+                <div><p class="eyebrow">TRÁILER DEL MUNDO</p><h2 id="video-titulo">La escuela, bloque a bloque</h2></div>
+                <p id="video-descripcion">Un recorrido por los exteriores, accesos y espacios interiores de PROA recreados en Minecraft.</p>
+            </div>
+            <div class="portal-nocturno__barra portal-nocturno__barra--inferior" aria-hidden="true"></div>
+        </section>
+        <section class="descarga-mapa" aria-labelledby="descarga-titulo">
+            <header class="descarga-mapa__encabezado">
+                <div>
+                    <p class="card-kicker">MAPA COMPLETO · LISTO PARA JUGAR</p>
+                    <h2 id="descarga-titulo">Descargá y recorré PROA</h2>
+                    <p>Instalá el mundo y sus tres mods para ver correctamente los muebles, puertas y elementos del colegio.</p>
+                </div>
+                <div class="version-requerida" aria-label="Versión requerida: Minecraft 1.21.11 con Forge">
+                    <span>VERSIÓN REQUERIDA</span>
+                    <strong>Minecraft 1.21.11</strong>
+                    <small>Forge</small>
+                </div>
+            </header>
+
+            <div class="descarga-mapa__datos">
+                <article class="mapa-descarga">
+                    <a class="mapa-qr" href="https://drive.google.com/drive/folders/194L1PTW9mi7kuM_U2lMy_qgezGmJS6T2?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Abrir la carpeta del mapa PROA en Google Drive">
+                        <img src="../../static/experiencia/recorrido-drive-qr.png" alt="Código QR para abrir la carpeta del mapa PROA en Google Drive">
+                    </a>
+                    <div>
+                        <p class="paso-descarga">PASO 1</p>
+                        <h3>Descargá el mapa</h3>
+                        <p>Escaneá el QR o abrí la carpeta para descargar <strong>mundoproa.zip</strong>.</p>
+                        <div class="acciones-descarga">
+                            <a class="boton-mapa boton-mapa--principal" href="https://drive.google.com/drive/folders/194L1PTW9mi7kuM_U2lMy_qgezGmJS6T2?usp=sharing" target="_blank" rel="noopener noreferrer">Abrir mapa en Drive</a>
+                            <a class="boton-mapa" href="../../static/experiencia/INSTRUCCIONES_MUNDO_PROA.txt" download>Descargar instrucciones TXT</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="ubicacion-mapa">
+                    <p class="paso-descarga">PASO 2</p>
+                    <h3>Encontrá el colegio</h3>
+                    <dl class="coordenadas" aria-label="Coordenadas del colegio en Minecraft">
+                        <div><dt>X</dt><dd>144</dd></div>
+                        <div><dt>Y</dt><dd>71</dd></div>
+                        <div><dt>Z</dt><dd>1034</dd></div>
+                    </dl>
+                    <p>También podés llegar con el comando:</p>
+                    <code>/tp @s 144 71 1034</code>
+                </article>
+            </div>
+
+            <div class="mods-requeridos">
+                <div class="mods-requeridos__titulo">
+                    <div><p class="paso-descarga">PASO 3</p><h3>Instalá los mods requeridos</h3></div>
+                    <p>Descargas directas para <strong>Forge · Minecraft 1.21.11</strong></p>
+                </div>
+                <div class="mods-lista">
+                    <article><span>01</span><div><h4>Storage Drawers</h4><p>Cajones y almacenamiento.</p></div><a href="https://www.curseforge.com/api/v1/mods/223852/files/7335079/download">Descargar</a></article>
+                    <article><span>02</span><div><h4>Macaw’s Furniture</h4><p>Muebles y decoración.</p></div><a href="https://www.curseforge.com/api/v1/mods/359540/files/7493729/download">Descargar</a></article>
+                    <article><span>03</span><div><h4>Macaw’s Doors</h4><p>Puertas utilizadas en el mapa.</p></div><a href="https://www.curseforge.com/api/v1/mods/378646/files/7493741/download">Descargar</a></article>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

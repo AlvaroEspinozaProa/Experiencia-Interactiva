@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROA: El desafío</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../static/experiencia.css">
+</head>
+<body class="experiencia-page desafio-page desafio-tv">
+    <main class="desafio-shell">
+        <a class="volver-proa" href="../">← Experiencias</a>
+        <header class="desafio-header">
+            <div>
+                <p class="eyebrow">JUEGO DEMOSTRACIÓN</p>
+                <h1 class="desafio-titulo"><span>PROA</span> EL <b>DESAFÍO</b></h1>
+            </div>
+            <div class="progreso" aria-live="polite">
+                <span id="progreso-texto">5 rondas</span>
+                <div class="progreso-puntos" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+        </header>
+        <section id="pantalla-inicio" class="pantalla-desafio pantalla-activa" aria-labelledby="desafio-inicio-titulo">
+            <div class="luces-escenario" aria-hidden="true"><i></i><i></i><i></i></div>
+            <p class="pantalla-numero">5 RONDAS · SIN LÍMITE DE TIEMPO</p>
+            <h2 id="desafio-inicio-titulo">¿Listo para<br><span>jugar?</span></h2>
+            <p>Respondé, sumá puntos y descubrí lo que hacemos en PROA.</p>
+            <div class="desafio-tarjetas" aria-hidden="true"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span></div>
+            <button id="boton-comenzar" class="boton-neon" type="button">Empezar partida <span aria-hidden="true">▶</span></button>
+        </section>
+        <section id="pantalla-pregunta" class="pantalla-desafio" hidden aria-live="polite">
+            <p id="pregunta-indice" class="pantalla-numero"></p>
+            <h2 id="pregunta-texto"></h2>
+            <div id="opciones" class="opciones" aria-label="Opciones de respuesta"></div>
+            <section id="feedback" class="feedback" hidden aria-live="assertive"><strong id="feedback-titulo"></strong><p id="feedback-texto"></p></section>
+            <button id="boton-siguiente" class="boton-neon" type="button" hidden>Siguiente <span aria-hidden="true">→</span></button>
+        </section>
+        <section id="pantalla-final" class="pantalla-desafio" hidden aria-labelledby="resultado-titulo">
+            <p class="pantalla-numero">MISIÓN COMPLETADA</p>
+            <h2 id="resultado-titulo">¡Terminaste<br>el desafío!</h2>
+            <p id="resultado-puntaje" class="resultado-puntaje"></p>
+            <div class="acciones-finales"><button id="boton-reiniciar" class="boton-neon" type="button">Jugar de nuevo</button><a class="boton-secundario" href="../">Ver experiencias</a></div>
+        </section>
+    </main>
+    <script src="../../static/experiencia.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+PROA WEB — PUBLICAR EN GITHUB PAGES
+
+1. Subí el contenido de esta carpeta a la raíz de un repositorio de GitHub. Conservá las carpetas y el archivo .nojekyll.
+2. En el repositorio entrá a Settings > Pages.
+3. En Build and deployment elegí Deploy from a branch, seleccioná la rama donde subiste los archivos (por ejemplo main), la carpeta / (root), y guardá.
+4. Esperá a que GitHub publique el sitio. La dirección aparece en Settings > Pages.
+
+No subas esta carpeta dentro de otra: index.html tiene que quedar en la raíz elegida para publicar. Si ya tenés otro repositorio, también podés poner su contenido en la carpeta docs y seleccionar /docs en Pages.
+
+Es una versión estática de la presentación. El contacto y los menús PAICOR necesitan un servidor y una base de datos; por eso no están disponibles acá. El enlace del mapa apunta a Google Drive: comprobá que esté compartido públicamente.

@@ -1,0 +1,122 @@
+/* ============================= */
+/* ADMINISTRADOR PAICOR          */
+/* ============================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+
+    background: linear-gradient(135deg, #f5f7fa, #e4e8ed);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Título */
+
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Formulario */
+
+form {
+    width: 90%;
+    max-width: 450px;
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    box-sizing: border-box;
+}
+
+/* Etiquetas */
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+
+    margin-top: 8px;
+}
+
+/* Campos */
+
+input[type="date"],
+input[type="text"] {
+    width: 100%;
+    padding: 13px 15px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    transition: 0.2s;
+}
+
+/* Cuando seleccionás un campo */
+
+input[type="date"]:focus,
+input[type="text"]:focus {
+    border-color: #105b7e;
+
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+}
+
+/* Botón */
+
+button {
+    margin-top: 20px;
+
+    padding: 13px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #4CAF50;
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+/* Efecto al pasar el mouse */
+
+button:hover {
+    background: #43a047;
+    transform: translateY(-2px);
+}
+
+/* Efecto al hacer click */
+
+button:active {
+    transform: translateY(0);
+}

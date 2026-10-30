@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PROA Despeñaderos</title>
+
+
+<link rel="stylesheet" href="../static/style.css">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+
+<body>
+<style>
+.contacto{
+
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:80px 20px;
+
+    
+}
+
+.contenedor-contacto{
+
+    width:1100px;
+    max-width:95%;
+
+    display:flex;
+
+    background:white;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.20);
+}
+
+/*=============================
+        LADO IZQUIERDO
+=============================*/
+
+.info-contacto{
+
+    width:40%;
+
+    background:linear-gradient(160deg,#0E5CAD,#1CCAFF);
+
+    color:white;
+
+    padding:45px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+}
+
+.logo-contacto{
+
+    text-align:center;
+
+    margin-bottom:30px;
+}
+
+.logo-contacto img{
+
+    width:130px;
+
+    background:white;
+
+    border-radius:50%;
+
+    padding:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.20);
+}
+
+.info-contacto h2{
+
+    font-size:34px;
+
+    text-align:center;
+
+    margin-bottom:20px;
+}
+
+.info-contacto p{
+
+    text-align:center;
+
+    line-height:28px;
+
+    margin-bottom:35px;
+}
+
+.dato{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:15px;
+
+    margin-bottom:22px;
+
+    font-size:18px;
+}
+
+.dato span{
+
+    line-height:28px;
+}
+
+/*=============================
+        FORMULARIO
+=============================*/
+
+.formulario{
+
+    width:60%;
+
+    padding:50px;
+}
+
+.formulario h2{
+
+    color:#001F54;
+
+    font-size:42px;
+
+    margin-bottom:10px;
+}
+
+.formulario p{
+
+    color:#666;
+
+    margin-bottom:35px;
+}
+
+.grupo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-bottom:20px;
+}
+
+.grupo label{
+
+    margin-bottom:8px;
+
+    color:#001F54;
+
+    font-weight:600;
+}
+
+.grupo input,
+.grupo textarea{
+
+    padding:15px;
+
+    border:2px solid #ddd;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.3s;
+
+    font-family:Poppins,sans-serif;
+}
+
+.grupo textarea{
+
+    resize:none;
+
+    height:140px;
+}
+
+.grupo input:focus,
+.grupo textarea:focus{
+
+    border-color:#1CCAFF;
+
+    box-shadow:0 0 12px rgba(28,202,255,.20);
+}
+
+/*=============================
+        BOTÓN
+=============================*/
+
+button{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(135deg,#1CCAFF,#0E5CAD);
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.18);
+}
+
+/*=============================
+        RESPONSIVE
+=============================*/
+
+@media(max-width:900px){
+
+.contenedor-contacto{
+
+flex-direction:column;
+
+}
+
+.info-contacto,
+.formulario{
+
+width:100%;
+
+}
+
+.info-contacto{
+
+padding:35px;
+
+}
+
+.formulario{
+
+padding:35px;
+
+}
+
+}
+
+.mensaje{
+    margin-top:15px;
+    text-align:center;
+    color:#198754;
+    font-weight:600;
+    opacity:0;
+    transition:0.3s;
+}
+
+.mensaje.mostrar{
+    opacity:1;
+}
+</style>
+
+<header>
+
+
+<div class="logo">
+
+
+<img src="../static/logop.jpg" alt="Logo PROA">
+
+
+<div class="texto-logo">
+
+<h2>PROA</h2>
+
+<span>Despeñaderos</span>
+
+</div>
+
+
+</div>
+
+
+
+
+<nav>
+
+<ul>
+
+<li>
+<a href="../">Inicio</a>
+</li>
+
+
+<li>
+<a href="../institucional/">Institucional</a>
+</li>
+
+
+<li>
+<a href="../paicor/">PAICOR</a>
+</li>
+
+
+<li>
+<a href="../proyectos/">Proyectos</a>
+</li>
+
+
+<li>
+<a href="./">Contacto</a>
+</li>
+
+
+</ul>
+
+
+</nav>
+
+
+<h2>Contacto</h2>
+
+
+</header>
+
+
+
+
+
+<section class="contacto">
+
+
+<div class="contenedor-contacto">
+
+
+
+<div class="info-contacto">
+
+
+<div class="logo-contacto">
+
+<img src="../static/logop.jpg" alt="Logo PROA">
+
+</div>
+
+
+
+<h2>PROA Despeñaderos</h2>
+
+
+
+<p>
+¿Tenés alguna consulta? Comunicate con nosotros a través de los siguientes medios o completá el formulario.
+</p>
+
+
+
+
+<div class="dato">
+📍 <span>Calle Argentina, Despeñaderos, Córdoba.</span>
+</div>
+
+
+
+<div class="dato">
+☎️ <span>(54)4921000</span>
+</div>
+
+
+
+<div class="dato">
+📷 <span>proadespenaderos</span>
+</div>
+
+
+
+<div class="dato">
+🕒 <span>Lunes a Viernes<br>08:00 a 17:00 hs</span>
+</div>
+
+
+
+</div>
+
+
+
+
+
+<div class="formulario">
+
+
+<h2>Contacto</h2>
+
+
+<p>
+El formulario de contacto no está disponible en esta versión de demostración.
+</p>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<script src="../static/main.js"></script>
+
+
+</body>
+
+</html>
+   

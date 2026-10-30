@@ -1,0 +1,37 @@
+MUNDO PROA - INSTRUCCIONES DE INSTALACION
+==========================================
+
+MAPA
+Archivo: mundoproa.zip
+Carpeta de descarga: https://drive.google.com/drive/folders/194L1PTW9mi7kuM_U2lMy_qgezGmJS6T2?usp=sharing
+
+VERSION REQUERIDA
+Minecraft: Java Edition 1.21.11
+Cargador de mods: Forge para Minecraft 1.21.11
+
+COORDENADAS DEL COLEGIO
+X: 144
+Y: 71
+Z: 1034
+Comando opcional: /tp @s 144 71 1034
+
+MODS REQUERIDOS
+1. Storage Drawers
+   https://www.curseforge.com/api/v1/mods/223852/files/7335079/download
+
+2. Macaw's Furniture
+   https://www.curseforge.com/api/v1/mods/359540/files/7493729/download
+
+3. Macaw's Doors
+   https://www.curseforge.com/api/v1/mods/378646/files/7493741/download
+
+INSTALACION
+1. Instalar Minecraft Java Edition 1.21.11.
+2. Instalar Forge compatible con Minecraft 1.21.11.
+3. Ejecutar una vez el perfil de Forge y cerrar Minecraft.
+4. Descargar los tres mods anteriores y copiar sus archivos .jar en la carpeta .minecraft/mods.
+5. Descargar mundoproa.zip, descomprimirlo y copiar la carpeta del mundo dentro de .minecraft/saves.
+6. Abrir Minecraft con el perfil de Forge 1.21.11 y cargar el mundo.
+7. Ir a X 144, Y 71, Z 1034 para encontrar el colegio.
+
+No abras el mundo sin los mods requeridos: pueden faltar muebles, puertas y otros bloques.
