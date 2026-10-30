@@ -46,7 +46,7 @@ Cinco preguntas, opciones y puntos. Un juego para poner a prueba lo que sabés d
 
 Antes de entrar al test hay un desafío de memoria: encontrar las parejas de etiquetas HTML. Cada acierto va dejando una explicación para conocer qué hace cada una, desde `<html>` y `<body>` hasta los enlaces y las imágenes.
 
-![Ambiente azul de la memoria HTML](static/experiencia/fondo-memoria-html.png)
+![Tarjetas de etiquetas HTML para encontrar parejas](static/readme/memoria-html.png)
 
 **[Abrir el desafío de HTML →](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/desafio-html/)**
 
@@ -56,7 +56,7 @@ Antes de entrar al test hay un desafío de memoria: encontrar las parejas de eti
 
 Después de la memoria, el archivo cambia: aparecen las interferencias y empieza otra prueba. Hay que responder preguntas de verdadero o falso sobre HTML mientras corre el tiempo. La transición une las dos etapas, como si el archivo de memoria se hubiera infectado.
 
-![Ambiente del test de HTML en modo virus](static/experiencia/fondo-test-virus-html.png)
+![Panel del test HTML en modo virus](static/readme/test-html.png)
 
 **[Entrar al desafío HTML →](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/desafio-html/)**
 
@@ -66,7 +66,7 @@ Después de la memoria, el archivo cambia: aparecen las interferencias y empieza
 
 Nuestra escuela también tiene un lugar en Minecraft. Desde esta sección podés mirar el tráiler, abrir la carpeta del mundo y encontrar las instrucciones, los mods y las coordenadas para recorrer el mapa.
 
-![Imagen de presentación de PROA en bloques](static/experiencia/recorrido-preview.png)
+![Vista del mapa de PROA en Minecraft, capturada del recorrido](static/readme/mapa-proa.jpg)
 
 **[Explorar PROA en bloques →](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/recorrido-en-bloques/)**
 
