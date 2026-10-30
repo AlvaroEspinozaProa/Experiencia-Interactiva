@@ -1,93 +1,116 @@
 <div align="center">
 
-# 🎮 PROA · Experiencia Interactiva
+![PROA Web — Experiencia Interactiva: una escuela, muchas formas de descubrirla](static/readme/portada.gif)
 
-### Una escuela para descubrir, jugar y recorrer de otra manera.
+<img src="static/logop.jpg" alt="Logo de PROA" width="95">
 
-🌅 **Un patio al atardecer** · 🐈 **Un gatito perdido** · 🧱 **Un mundo hecho de bloques**
+# PROA Web · Experiencia Interactiva
 
-[![El gatito caminando](static/readme/gatito.gif)](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/escape-proa/)
+**Una página para conocer la escuela. Un montón de formas de vivirla.**
 
-**[▶ Entrar a la experiencia](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/)**
+[🏠 Ir a PROA Web](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/) &nbsp; · &nbsp; [🎮 Elegir una experiencia](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/)
 
 </div>
 
 ---
 
-## ¿Qué es esto?
+## 💙 Todo empezó con PROA Web
 
-Esta es una parte de **PROA Web**, una página hecha para mostrar nuestra escuela, sus espacios y los proyectos que se hacen en ella. Para la presentación del evento quisimos ir un poco más allá de contar cómo es PROA: la idea fue que también se pudiera **jugar, explorar y aprender**.
+**PROA Web es la base de todo este proyecto.** La página nació para mostrar nuestra escuela de Despeñaderos: sus espacios, su propuesta educativa y los proyectos que hacen los estudiantes. Ahí están el inicio, la sección institucional, el plano y la vidriera de proyectos.
 
-Así se fue armando esta experiencia con varias propuestas distintas. Hay preguntas sobre la escuela, un desafío de HTML, un mundo de Minecraft y una pequeña aventura protagonizada por un gato. Cada una tiene su propio estilo, pero todas nacen del mismo lugar: mostrar PROA desde lo que hacemos y creamos.
+A partir de esa página surgió una idea para el evento: además de leer sobre la escuela, ¿por qué no poder **jugar, aprender y recorrerla**? Así nació la sección **Experiencia Interactiva**, que reúne distintas ideas en un mismo lugar. Cada una tiene sus colores, su forma de jugar y algo de lo que somos en PROA.
+
+> De una página para conocer la escuela a un espacio para descubrirla jugando.
+
+[**Conocer PROA Web →**](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/)
+
+---
 
 <div align="center">
 
-![El patio de PROA al atardecer, escenario de Escape PROA](static/escape-proa/patio-atardecer.png)
+## ✨ Elegí tu misión
 
-*El patio de Escape PROA, cuando empieza a caer el sol.*
+**Preguntas · Memoria · Código · Bloques · Aventura**
 
 </div>
 
-## 🐈 Escape PROA · La historia del gatito
+### 🎤 01 / PROA: El desafío
 
-Un pequeño gato gris aparece perdido en un lugar que no conoce. Mientras cae la tarde, necesita encontrar las llaves para seguir su camino. Ahí entramos nosotros: hay que acompañarlo, observar el entorno y resolver los acertijos que se esconden en cada rincón.
+Cinco preguntas, opciones y puntos. Un juego para poner a prueba lo que sabés de PROA, la tecnología y el trabajo en equipo. Está pensado como una partida corta, con un estilo de concurso para jugar y compartir.
 
-La aventura pasa por el **patio, el pasillo y el taller**. Los objetos forman parte de los escenarios: un libro en un banco, un mecanismo de riego, una partitura o una pantalla pueden guardar una pista. No es solo encontrar una puerta; también se trata de prestar atención a lo que hay alrededor.
+**[Jugar al desafío →](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/desafio/)**
+
+---
+
+### 🃏 02 / Memotest de HTML
+
+Antes de entrar al test hay un desafío de memoria: encontrar las parejas de etiquetas HTML. Cada acierto va dejando una explicación para conocer qué hace cada una, desde `<html>` y `<body>` hasta los enlaces y las imágenes.
+
+![Ambiente azul de la memoria HTML](static/experiencia/fondo-memoria-html.png)
+
+**[Abrir el desafío de HTML →](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/desafio-html/)**
+
+---
+
+### 🦠 03 / Test HTML · Modo virus
+
+Después de la memoria, el archivo cambia: aparecen las interferencias y empieza otra prueba. Hay que responder preguntas de verdadero o falso sobre HTML mientras corre el tiempo. La transición une las dos etapas, como si el archivo de memoria se hubiera infectado.
+
+![Ambiente del test de HTML en modo virus](static/experiencia/fondo-test-virus-html.png)
+
+**[Entrar al desafío HTML →](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/desafio-html/)**
+
+---
+
+### 🧱 04 / PROA en bloques
+
+Nuestra escuela también tiene un lugar en Minecraft. Desde esta sección podés mirar el tráiler, abrir la carpeta del mundo y encontrar las instrucciones, los mods y las coordenadas para recorrer el mapa.
+
+![Imagen de presentación de PROA en bloques](static/experiencia/recorrido-preview.png)
+
+**[Explorar PROA en bloques →](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/recorrido-en-bloques/)**
+
+---
+
+### 🐈 05 / Escape PROA
+
+Un gatito gris está perdido y necesita ayuda para encontrar la salida. El camino pasa por el patio, el pasillo y el taller: en cada espacio hay objetos para observar, acertijos para resolver y llaves que encontrar.
+
+La aventura se fue construyendo y puliendo con sus propios escenarios, movimientos y diálogos. La intención fue que los mecanismos fueran parte de la escuela y que el gato tuviera una historia, no solo una salida por encontrar.
 
 <details>
-<summary>🐾 ¿Y cómo termina la historia? (contiene spoilers)</summary>
+<summary>🐾 Abrir el final de la historia · contiene spoilers</summary>
 
-Después de atravesar las habitaciones y llegar a la salida, el gatito encuentra a alguien dispuesto a cuidarlo. Lo que empezó como una búsqueda termina convirtiéndose en el comienzo de una vida nueva, con compañía y un lugar seguro.
+Después de recorrer las habitaciones, el gatito encuentra a alguien que lo recibe y está dispuesto a cuidarlo. La aventura termina con compañía, un lugar seguro y el comienzo de una nueva vida.
 
 </details>
 
-La idea fue ir puliendo el juego para que tuviera personalidad: movimientos del gato, escenas al atardecer, diálogos con aire cinematográfico y acertijos que se sintieran parte del lugar. Hubo muchas vueltas para acomodar los detalles, especialmente la ubicación de los objetos y sus interacciones.
-
-**[🐾 Acompañar al gatito](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/escape-proa/)**
+**[Acompañar al gatito →](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/escape-proa/)**
 
 ---
 
-## 🧱 PROA en bloques
+## 🛠️ Un poco de lo que hay detrás
 
-¿Y si pudiéramos entrar a la escuela desde Minecraft? Acá está el recorrido por el mundo de PROA, con un tráiler, las instrucciones y el acceso a la carpeta del mapa.
+El proyecto fue creciendo con las ideas, propuestas y revisiones de la presentación: desde la página institucional y el plano hasta los juegos, las transiciones, los escenarios y el recorrido en bloques. Cada experiencia se trabajó con una identidad propia, pero conectada con la misma escuela.
 
-![Vista de PROA en un mundo de bloques al atardecer](static/experiencia/recorrido-preview.png)
+Esta versión está preparada para **GitHub Pages** y usa **HTML, CSS y JavaScript**, además de GSAP para algunas animaciones. Las imágenes, los sonidos y demás recursos están en `static`.
 
-Para jugar el mapa se indican la versión, los mods y las coordenadas dentro de la página. El mundo se descarga desde Google Drive.
-
-**[⛏️ Ver el recorrido](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/recorrido-en-bloques/)**
-
-## 🧠 Otros desafíos
-
-| Experiencia | ¿De qué se trata? |
-| --- | --- |
-| 🎤 **PROA: El desafío** | Un juego de preguntas para poner a prueba lo que sabemos sobre la escuela. |
-| 💻 **Desafío HTML** | Encontrar parejas de etiquetas y definiciones, y después enfrentarse al test en modo virus. |
-| 🐈 **Escape PROA** | Explorar, resolver acertijos y ayudar al gatito a encontrar el camino. |
-| 🧱 **PROA en bloques** | Mirar el recorrido y descargar el mundo de Minecraft. |
-
-**[✨ Elegir una experiencia](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/)**
-
----
-
-## 🛠️ Cómo está hecho
-
-La versión de este repositorio está preparada como sitio estático para **GitHub Pages**, con HTML, CSS y JavaScript. También usa GSAP para algunas animaciones; los escenarios, imágenes y sonidos están en la carpeta `static`.
-
-Para abrirlo localmente, serví la carpeta con un servidor web, por ejemplo:
+Para probarla en tu computadora, abrí una terminal en esta carpeta y ejecutá:
 
 ```bash
 python -m http.server 8000
 ```
 
-Después entrá a `http://localhost:8000/`. El formulario de contacto y los menús PAICOR necesitan un servidor y una base de datos, así que no están habilitados en esta versión.
+Después entrá a `http://localhost:8000/`. El formulario de contacto y los menús PAICOR necesitan un servidor y una base de datos, por eso no están habilitados en esta versión estática.
 
 ---
 
 <div align="center">
 
-**Hecho para mostrar que en PROA también se aprende creando.** 💙
+### PROA Web 💙
 
-🐾　🧱　💻　🎮
+**Conocer la escuela. Crear ideas. Aprender jugando.**
+
+[Volver al inicio](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/) · [Ver las experiencias](https://alvaroespinozaproa.github.io/Experiencia-Interactiva/experiencia-interactiva/)
 
 </div>
